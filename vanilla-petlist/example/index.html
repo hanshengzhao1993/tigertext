@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tiger Text Challenge</title>
+    <!-- build:css -->
+    <!-- endbuild -->
+  </head>
+  <body>
+    <div id="petList">
+      <div id="header-container">
+        <span>Looking For</span>
+        <input type="checkbox" name="Boarding" id="boarding"> Boarding<br>
+        <input type="checkbox" name="Sitting" id="sitting"> Sitting<br>
+      </div>
+    </div>
+    <div id="content">
+      <ul id="list-items"></ul>
+    </div>
+    <!-- build:js -->
+    <!-- endbuild -->
+    <style>
+      a{
+        color: #71c5ce;
+        font-size: 25px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover{
+        cursor: hand;
+      }
+      ul{
+        list-style-type: none;
+      }
+      li{
+        margin: 20px 50px;
+      }
+      li:hover{
+        background-color: #eff0f4;
+      }
+      li *:nth-child(2){
+        font-size: 17px;
+      }
+      li *{
+        margin: 2px;
+      }
+      #petList{
+        width: 100%;
+        background-color: #dce0e8;
+        height: 100px;
+      }
+      #header-container{
+        margin: 0 auto;
+        width: 90%;
+        border-style: solid none solid none;
+        border-color: #adb0b5;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      #header-container * {
+        margin: 35px;
+      }
+    </style>
+  </body>
+</html>
